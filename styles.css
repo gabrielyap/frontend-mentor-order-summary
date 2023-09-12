@@ -1,0 +1,138 @@
+@import url("https://fonts.google.com/specimen/Red+Hat+Display");
+
+body{
+    background-color: hsl(225, 100%, 94%);
+    background-image: url('images/pattern-background-desktop.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#top-image{
+    border-radius: 22px 22px 0px 0px;
+
+}
+.container{
+    display: flex;
+    z-index: 5;
+    flex-direction: column;
+    background-color: white;
+    /* //border: 2px solid red; */
+    max-width: 475px;
+    /* max-height: 600px; */
+    margin: auto;
+    margin-top:100px;
+    border-radius: 25px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    /* max-width: 450px; */
+    
+}
+
+.first-text{
+    margin-top:30px;
+    max-width: 300px;
+}
+
+h1{
+    font-weight: 900;
+}
+
+#first-body{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    opacity: 70%;
+}
+
+.plan-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: hsl(225, 100%, 98%);
+    padding-left: 40px;
+    padding-right: 40px;
+    max-width: 700px;
+    border-radius: 20px;
+    margin:30px
+    
+}
+/* .left-side{
+    display: flex;
+    flex-direction: row;
+} */
+.plan-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 12px;
+    margin-right: 70px;
+    margin-left:20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#annual{
+    margin-bottom: -2px;
+}
+
+
+#change{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: hsl(245, 75%, 52%);
+    text-decoration: underline;
+}
+
+#change:hover{
+    cursor: pointer;
+}
+
+#music-icon{
+    display: flex;
+    height: 50px;
+    width: 50px;
+    align-self: center;
+}
+
+#payment{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    min-width: 380px;
+    min-height: 50px;
+    border-radius: 15px;
+    box-shadow: -5px 10px 3px hsl(244, 100%, 92%)
+}
+
+#payment:hover{
+    cursor: pointer;
+}
+
+#cancel{
+    font-family: 'Red Hat Display', sans-serif;
+    opacity: 50%;
+    font-size: 16px;
+    font-weight: 900;
+    margin-top: 30px;
+    min-width: 300px;
+    min-height: 50px;
+    border-radius: 15px;
+}
+
+#cancel:hover{
+    cursor: pointer;
+}

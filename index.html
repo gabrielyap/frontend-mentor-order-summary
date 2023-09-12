@@ -5,33 +5,55 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
   <title>Frontend Mentor | Order summary card</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel = "stylesheet" href = "styles.css">
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
-</head>
+</head> 
 <body>
+  <div class = "container">
+    <img id = "top-image" src = "images\illustration-hero.svg">
 
-  Order Summary
+    <div class = "text">
+      <div class = "first-text">
+        <h1>
+          Order Summary
+        </h1>
+        <div id = "first-body">
+          You can now listen to millions of songs, audiobooks, and podcasts on any 
+          device anywhere you like!
+        </div>
+       
+      </div>
+      
 
-  You can now listen to millions of songs, audiobooks, and podcasts on any 
-  device anywhere you like!
+      <div class = "plan-box" >
+          <img id = "music-icon" src = "images/icon-music.svg">
+          <div class = "plan-text">
+            <h2 id = "annual"> Annual Plan</h2>
+            <h2 style = "opacity: 50%" id = "five"> $59.99/year</h2>
+          </div>
+        
+          
 
-  Annual Plan
-  $59.99/year
+        <div id = "change"> Change </div>
 
-  Change
+      </div>
+      
+      <button id = "payment">Proceed to Payment </button>
+      <div id = "cancel">Cancel Order </div>
+      
+    </div>
 
-  Proceed to Payment
-  Cancel Order
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
   </div>
+  
+  
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Gabriel Yap</a>.
+  </footer>
 </body>
 </html>
